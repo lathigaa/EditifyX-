@@ -175,5 +175,9 @@ def noise():
     noise_image = base64.b64encode(img).decode('utf-8')
     return 'data:image/jpeg;base64,' + noise_image
 
+import os
+
 if __name__ == '__main__':
+    port = int(os.environ.get("PORT", 10000))  # Default to 10000 if not provided
+    app.run(host='0.0.0.0', port=port)
     app.run(debug=True)
