@@ -1,4 +1,4 @@
-EditifyX — Image Filtering Web Application Using Python
+#EditifyX — Image Filtering Web Application Using Python
 
  Overview
 EditifyX is a powerful web application that enables users to upload images, apply a range of filters, adjust image properties, and remove noise, all within a seamless and interactive browser-based interface.
